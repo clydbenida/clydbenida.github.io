@@ -1,0 +1,27 @@
+.contact-section {
+   display: flex;
+   align-items: center;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+   max-width: 75rem;
+}
+
+section.contact-section .contact-section-content {
+   width: 100%;
+}
+
+@media (min-width: 768px) {
+   section.contact-section {
+      min-height: 100vh;
+   }
+}
+@media (min-width: 992px) {
+   section.contact-section {
+      padding-left: 3rem;
+      padding-right: 3rem;
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+   }
+}

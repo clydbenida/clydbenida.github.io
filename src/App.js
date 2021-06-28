@@ -1,15 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import SideNav from './components/SideNav'
+import PageContent from './components/PageContent'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
+import './custom.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          building <code>clydbenida</code>
-        </p>
-      </header>
+      <SideNav />
+      <PageContent />
     </div>
   );
 }
