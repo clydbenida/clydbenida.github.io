@@ -8,7 +8,7 @@ import CallToAction from './sections/CallToAction'
 
 const PageContent = () => { 
    return (
-      <div class="container-fluid p-0 bg-secondary">
+      <div className="container-fluid p-0 bg-secondary">
          <About />
          <Experience />
          <Education />

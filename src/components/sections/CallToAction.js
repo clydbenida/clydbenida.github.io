@@ -1,20 +1,34 @@
+import { Row, Col } from "react-bootstrap"
+
 const CallToAction = () => {
    return (
       <>
-         <hr class="m-0" />
+         <hr className="m-0" />
          
-         <section class="contact-section" id="callToAction">
-            <div class="contact-section-content">
+         <section className="contact-section" id="callToAction">
+            <div className="contact-section-content">
                <h2>Send the details and we'll work it together</h2>
                <form>
-                  <div class="my-3">
-                     <input type="email" class="form-control form-control-lg" placeholder="Email" />
+                  <Row>
+                     <Col>
+                        <div>
+                           <input type="text" className="form-control fomr-control-lg" placeholder="First name" />
+                        </div>
+                     </Col>
+                     <Col>
+                        <div>
+                           <input type="text" className="form-control fomr-control-lg" placeholder="Last name" />
+                        </div>
+                     </Col>
+                  </Row>
+                  <div className="my-3">
+                     <input type="email" className="form-control form-control-lg" placeholder="Your Email" />
                   </div>
-                  <div class="my-3">
-                     <textarea class="form-control" rows="5"></textarea>
+                  <div className="my-3">
+                     <textarea className="form-control" rows="5" placeholder="Write a detailed explanation about your request"></textarea>
                   </div>
-                  <div class="my-3">
-                     <button class="btn btn-lg bg-primary text-primary">
+                  <div className="my-3">
+                     <button className="btn btn-lg bg-primary text-primary">
                         SEND
                      </button>
                   </div>

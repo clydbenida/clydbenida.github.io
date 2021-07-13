@@ -1,25 +1,25 @@
 const Education = () => {
    return (
       <>
-         <hr class="m-0" />
-         <section class="resume-section" id="education">
-            <div class="resume-section-content">
-               <h2 class="mb-5">Education</h2>
-               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                  <div class="flex-grow-1">
-                     <h3 class="mb-0">Lyceum of The Philippines University</h3>
-                     <div class="subheading mb-3">Bachelor of Science in Information Technology</div>
+         <hr className="m-0" />
+         <section className="resume-section" id="education">
+            <div className="resume-section-content">
+               <h2 className="mb-5">Education</h2>
+               <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                  <div className="flex-grow-1">
+                     <h3 className="mb-0">Lyceum of The Philippines University</h3>
+                     <div className="subheading mb-3">Bachelor of Science in Information Technology</div>
                      <p>GPA: 3.23</p>
                   </div>
-                  <div class="flex-shrink-0"><span class="text-primary">June 2015 - December 2017</span></div>
+                  <div className="flex-shrink-0"><span className="text-primary">June 2015 - December 2017</span></div>
                </div>
-               <div class="d-flex flex-column flex-md-row justify-content-between">
-                  <div class="flex-grow-1">
-                  <h3 class="mb-0">AMA University</h3>
-                  <div class="subheading mb-3">Bachelor of Science in Information Technology</div>
+               <div className="d-flex flex-column flex-md-row justify-content-between">
+                  <div className="flex-grow-1">
+                  <h3 className="mb-0">AMA University</h3>
+                  <div className="subheading mb-3">Bachelor of Science in Information Technology</div>
                   <p>GPA: 3.56</p>
                   </div>
-                  <div class="flex-shrink-0"><span class="text-primary">January 2018 - Present</span></div>
+                  <div className="flex-shrink-0"><span className="text-primary">January 2018 - Present</span></div>
                </div>
             </div>
          </section>
